@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(128, 25, 128);
+}
+.logo img{
+    height: 150px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+.bookinput {
+  margin-top: 15px;
+  text-align: center;
+  background-color: pink;
+  padding: 50px 50px 50px 50px;
+  width: 80%;
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 85px;
+  
+}
+
+.nav-bar{
+    margin-top: 5px ;
+    margin-left: 300px;
+}
+#booknow{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 35px;
+}
+#reset{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width:70px;
+    height: 35px;   
+}
+.logo{
+  left: 50px;
+  bottom: 50%;
+}
+:hover#reset{
+    background-color: green;
+    color: black;
+    transition: 0.5s;
+}
+:hover#booknow{
+    background-color: green;
+    color: black;
+    transition: 0.5s;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}

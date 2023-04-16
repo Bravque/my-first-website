@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="">
+        <link class="fav.logo" rel="shortcut icon" href="img/sunaton logo.jpeg" type="image/x-icon" sizes="16*16">
+        <title>SUNATON HOTEL </title>
+        <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        
+            <div class="logo">
+                <img src="/img/sunaton logo.jpeg" alt="logo">
+            </div >
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Rooms & Rates</a></li>
+                    <li><a href="#">Meals</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Complaints</a></li>
+                </ul>
+            </div>
+            <div class="bookinput">
+                <form action="post">
+                    <label for="check-in">Check-in</label>
+                    <input type="date" id="check-in" name="check-in" required>
+                    <label for="check-out">Check-out</label>
+                    <input type="date" id="check-out" name="check-out" required>
+                    <label for="adult">Adult</label>
+                    <input type="number" id="adult" name="adult" default="0" required>
+                    <label for="children">Children</label>
+                    <input type="number" id="children" name="children" default="0" required>
+                    <input type="reset" id="reset">
+                    <input type="button" value="BookNow" id="booknow">
+                </form>
+            </div>
+
+    </body>
+
+</html>
